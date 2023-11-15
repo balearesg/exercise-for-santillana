@@ -1,0 +1,21 @@
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  background-color: var(--surface);
+  flex-direction: column;
+  color: var(--on-surface);
+  width: 100%;
+  padding: 2rem;
+  row-gap: 1rem;
+  border-radius: var(--border-radius-base);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  h1, h2 {
+    margin: 0;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}

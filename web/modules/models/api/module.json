@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "platforms": [
+    "web",
+    "android",
+    "ios"
+  ],
+  "ts": {
+    "path": "./ts",
+    "files": [
+      "*"
+    ]
+  }
+}

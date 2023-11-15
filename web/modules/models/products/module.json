@@ -1,0 +1,14 @@
+{
+  "name": "products",
+  "platforms": [
+    "web",
+    "android",
+    "ios"
+  ],
+  "ts": {
+    "path": "./ts",
+    "files": [
+      "*"
+    ]
+  }
+}

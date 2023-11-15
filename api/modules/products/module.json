@@ -1,0 +1,10 @@
+{
+  "name": "products",
+  "ts": {
+    "path": "ts",
+    "files": [
+      "*"
+    ]
+  },
+  "platforms": "node"
+}

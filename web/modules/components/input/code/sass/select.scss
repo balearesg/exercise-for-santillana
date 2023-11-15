@@ -1,0 +1,43 @@
+.form-group-select {
+    position: relative;
+    svg.pragmate-icon {
+        position: absolute;
+        bottom: 12px;
+        right: 15px;
+        stroke: var(--on-surface);
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/*  .pragmate-element-textarea .pragmate-input__required-label {
+    position: absolute;
+    bottom: 0px;
+    top: -169px;
+    left: 80px;
+    text-transform: capitalize;
+ } */
+
+ .pragmate-element-textarea {
+    background-color: var(--background);
+    margin: 0;
+        border-radius: var(--border-primary);
+        border: 1px solid var(--outline);
+ }
+ .pragmate-element-textarea > .pragmate-input__required-label{
+    position: absolute;
+    bottom: 0px;
+    top: -169px;
+    left: 80px;
+ }
+ .label {
+    display: flex;
+    gap: .5rem;
+    text-transform: lowercase;
+    &::first-letter {
+        text-transform: uppercase;
+    }
+    .input__required-label {
+        color: var(--on-error);
+    }
+ }

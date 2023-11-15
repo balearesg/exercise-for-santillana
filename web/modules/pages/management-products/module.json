@@ -1,0 +1,32 @@
+{
+  "name": "products-management",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "widget": {
+    "route": "/products/management/${id}",
+    "is": "page",
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "sass": {
+      "path": "/widget/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "products-management"
+    }
+  },
+  "txt": {
+    "path": "/txt",
+    "multilanguage": true,
+    "files": "*"
+  }
+}

@@ -1,0 +1,6 @@
+.page__container .pragmate-modal.pragmate-confirm-dialog.beauty-modal {
+    .confirm-dialog-content :where(p, div, h3, h4) {
+        color: var(--on-surface);
+        margin: 0;
+    }
+}

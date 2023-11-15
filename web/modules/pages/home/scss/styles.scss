@@ -1,0 +1,10 @@
+.page__container {
+	display: flex;
+	max-width: 1024px;
+	justify-content: center;
+	margin: 0 auto;
+	flex-direction: column;
+	.table {
+		margin: 24px 0 0;
+	}
+}

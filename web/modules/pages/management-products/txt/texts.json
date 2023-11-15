@@ -1,0 +1,39 @@
+{
+	"en": {
+		"create": {
+			"title": "User creation"
+		},
+		"edit": {
+			"title": "User edit"
+		},
+		"email": "Email",
+		"name": "Name",
+		"description": "D"
+	},
+	"es": {
+		"create": {
+			"title": "Creación de usuarios"
+		},
+		"edit": {
+			"title": "Edición de usuarios"
+		},
+		"email": "Correo electrónico",
+		"name": "Nombre",
+		"lastName": "Apellido",
+		"phone": "Telefono",
+		"status": "Estado",
+		"profile": "Selecione un perfil",
+		"save": "Guardar",
+		"errorForm": "El usuario ya se encuentra registrado",
+		"error": "Ha ocurrido un error",
+		"toast": {
+			"create": "Usuario creado correctamente",
+			"edit": "Usuario editado correctamente"
+		},
+		"userType": "Tipo de usuario",
+		"active": "Activo",
+		"inactive": "Inactivo",
+		"invalidEmail": "El email no coincide con la forma username@host.dominio, verifiquelo",
+		"invalidPermisions": "No tienes los permisos necesarios para ejecutar esta accion"
+	}
+}
