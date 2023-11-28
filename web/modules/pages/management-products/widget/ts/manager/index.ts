@@ -40,33 +40,9 @@ export class Manager extends ReactiveModel<{}> {
 		}
 	};
 
-	clean: () => void = (): void => { };
-
-
-	edit = async (params) => {
-
-	}
-
-	create = async (params) => {
-		this.#error = '';
-		this.triggerEvent();
-		try {
-
-		} catch (error) {
-
-			this.triggerEvent();
-			return { error };
-		} finally {
-			this.fetching = false;
-		}
-	};
-
 	publish = (params) => {
 		const specs = { ...params, id: this.#isCreating ? uuidv4() : this.#id }
 		return this.#isCreating ? this.#products.new(specs) : this.#products.edit(specs)
 	}
 
-	hide = async () => {
-
-	};
 }

@@ -12,7 +12,7 @@ export /*bundle*/
 	useBinder([manager], () => setState({}));
 
 	if (!ready || !manager.ready) return <LoadingPage />;
-	//	if (!manager.permissions || !manager.permissions.writeP) return <PageNotFound />
+
 	const value = {
 		manager,
 		texts,

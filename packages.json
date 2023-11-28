@@ -2,6 +2,6 @@
   "/web/package.json",
   "/api/package.json",
   "../../public/datamodel/project/package.json",
-  "../../public/jview/project/package.json",
-  "../../public/pragmate-ui/project/package.json"
+  "../../public/jview/library/package.json",
+  "../../public/pragmate-ui/library/package.json"
 ]

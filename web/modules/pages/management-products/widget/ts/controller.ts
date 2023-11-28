@@ -21,7 +21,5 @@ export /*bundle*/
     const id = this.uri.vars.get("id");
     this.#model.load(id);
   }
-  hide() {
-    this.#model.hide();
-  }
+
 }
